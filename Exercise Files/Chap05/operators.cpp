@@ -11,4 +11,17 @@ int main() {
     auto y = 47;
     cout << format("x is {}\n", x);
     cout << format("y is {}\n", y);
+    
+    // compound operator
+    x += y; // adds y to x
+    // x = x+y; difference: in compound operator x is evaluated once
+    cout << format("x is {}\n", x);
+    
+    x += y;
+    x -= y;
+    x *= y;
+    x /= y;
+    x %= y;
+    
 }
+

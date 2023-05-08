@@ -8,6 +8,9 @@ using std::cout;
 
 int main() {
     int array[] { 1, 2, 3, 4, 5 };
+    
+    // int& reference means that we don't make a copy of the value
+    // const here means that we can't change the array value while looping through it
     for(const int& i : array) {
         cout << format("{} ", i);
     }

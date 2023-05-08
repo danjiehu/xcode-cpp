@@ -1,5 +1,6 @@
 // prime number
 // danjiehu
+
 #include<iostream>
 #include<format>
 
